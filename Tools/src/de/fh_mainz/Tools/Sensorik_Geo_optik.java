@@ -11,11 +11,14 @@ public class Sensorik_Geo_optik {
 		Punkt c =new Punkt();
 		Punkt d =new Punkt();
 		Punkt r =new Punkt();
+		Punkt t =new Punkt();
 		
 		a.setLocation(1,2);
 		b.setLocation(2,1);
+		c.setLocation(10, 0);
+		d.setLocation(10, 1);
 		r=b.subtraktion(a);
-		
+		t=d.subtraktion(c);
 		
 	}
 
